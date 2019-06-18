@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+build:
+  commands:
+    - echo Preparing www.mayszak.com...
+artifacts:
+  secondary-artifacts:
+    artifact1:
+      files:
+        - /index.html
+      name: web-html        
+    artifact2:
+      files:
+        - /mayszak.js
+      name: web-code
